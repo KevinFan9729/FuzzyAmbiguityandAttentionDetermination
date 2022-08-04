@@ -8,7 +8,6 @@ Created on Wed Jan  5 11:51:50 2022
 import numpy as np
 import skfuzzy as fuzz
 from skfuzzy import control as ctrl
-import matplotlib.pyplot as plt
 
 
 objConf = ctrl.Antecedent(np.arange(0, 1.05, 0.05), 'object confidence')
