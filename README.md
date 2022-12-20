@@ -7,10 +7,14 @@ Domestic service robots have the promising potential of bringing significant ser
 ## Attention Determination
 Head orientation and gaze direction are key indicators of human attention. The system determines the attention level of the user. We track the locations of pupils to determine gaze direction. Because eyes are typically small compared to other facial and postural features; thus, the determination of gaze direction with naïve boolean thresholding to be unreliable. Therefore, we utilize fuzzy logic to determine eye gaze direction. 
 
-### Attention Determination demo
-<p-align="center">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/dvq_-upBqbA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</p>
+### Demo
+
+https://user-images.githubusercontent.com/60720175/208724808-e9c31cff-cf72-437c-a26c-f5538543fa40.mp4
+
+Also available on youtube:
+https://www.youtube.com/embed/dvq_-upBqbA
+
+For fuzzy ambiguity determination and more, please check out the full paper available on IEEE xplore 
 
 ## Requirements
 Python 3.x
